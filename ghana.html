@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <div class="input-group input-group-lg">
+    <span class="input-group-addon" id="sizing-addon1">Date of birth</span>
+    <input type="text" class="form-control" placeholder="" aria-describedby="sizing-addon1">
+  </div>
+
+  <div class="input-group">
+    <span class="input-group-addon" id="sizing-addon2">Gender</span>
+    <input type="text" class="form-control" placeholder="" aria-describedby="sizing-addon2">
+  </div>
+  <div class="row">
+    <div class="col-lg-6">
+      <div class="input-group">
+        <span class="input-group-btn"> </span>
+
+      </div><!-- /input-group -->
+    </div><!-- /.col-lg-6 -->
+  </div><!-- /.row -->
+</head>
+<body>
+  <button onclick="myFunction()">Generate</button>
+  <p id="demo"></p>
+  <script>
+  function myFunction() {
+    var d=prompt("when is your birthday?");
+    var day= d.getDay();
+    console.log("day");
+    document.getElementById("demo").innerHTML = n;
+  }
+</script>
+</body>
+</html>
